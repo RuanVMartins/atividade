@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+
+section div{
+    text-decoration-color: aqua;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifd;
+    background-color: rgb(121, 204, 125);
+}
+
+section img{
+    height: 300px; width:auto ;
+}
+section div img {
+    padding-left:80px ;
+}
+
+#a{
+    color: aqua;
+    margin-left:100px;
+}
+
+#b{
+    color: red;
+    margin-left:200px;
+}
+
+#c{
+    color: green;
+    margin-left:300px;
+}
+
+#d{
+    color: yellow;
+    margin-left:400px;
+}
+
+#e{
+    color: blue;
+    margin-left:500px;
+}
+
+#f{
+   color: orange;
+    margin-left:600px;
+}
+
+#g{
+    color: orangered;
+    margin-left:700px;
+}
