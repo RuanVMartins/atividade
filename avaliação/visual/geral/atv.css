@@ -14,6 +14,13 @@ body{
 section img{
     height: 300px; width:auto ;
 }
+
+#gato {
+    height: 300px; width: auto;
+    display: flex;
+    justify-content: center;
+}
+
 section div img {
     padding-left:80px ;
 }
@@ -21,34 +28,59 @@ section div img {
 #a{
     color: aqua;
     margin-left:100px;
+    background-image:url(https://media1.tenor.com/m/tIs0vjSqRgIAAAAC/cat-kinkytwt.gif);
+    background-size: 40px;
 }
 
 #b{
     color: red;
     margin-left:200px;
+    background-image:url(https://i.imgflip.com/754zod.gif);
+    background-size: 40px;
 }
 
 #c{
     color: green;
     margin-left:300px;
+    background-image:url(https://64.media.tumblr.com/8feed3487dc0c0b3eae8e90ee60adbd9/fe0bdfec68a01905-13/s400x600/a2a5b7bf845d9556adcb4f991819360256f978ef.gif);
+    background-size: 40px;
 }
 
 #d{
     color: yellow;
     margin-left:400px;
+    background-image:url(https://i.makeagif.com/media/1-22-2022/95LaGI.gif);
+    background-size: 40px;
 }
 
 #e{
     color: blue;
     margin-left:500px;
+    background-image:url(https://i.imgur.com/6Ae1xqs.gif);
+    background-size: 40px;
 }
 
 #f{
    color: orange;
     margin-left:600px;
+    background-image:url(https://media.tenor.com/vnX2IhoPSpEAAAAM/orange-cat-staring-orange-cat.gif);
+    background-size: 40px;
+
 }
 
 #g{
     color: orangered;
     margin-left:700px;
+       background-image:url(https://i.redd.it/bhi61buqvxj71.gif);
+    background-size: 50px;
+}
+
+h1{ 
+    background-image:url(https://media.tenor.com/V6W_O8eqsc4AAAAj/epic-embed-fail-epic-embed-homicide.gif);
+    background-size: 40px;
+}
+
+button{
+    margin-left:900px;
+    margin-bottom: 5px;
 }
