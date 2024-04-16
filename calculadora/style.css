@@ -2,15 +2,36 @@
     margin-top: 10px;
     text-align: center;
     border: 100px;
-    width: 250px;
-    height: 350px;
-    border-radius: 30px;
-    background-color: whitesmoke;
+    width: 300px;
+    height: 388px;
+    border-radius: 10px;
+    background:linear-gradient(to top,rgb(207, 71, 112) 0%, rgb(245, 115, 115) 100%);
+    border: 10px;
+    border-color: red;
+    box-shadow: turquoise;
+    -webkit-box-shadow: -1px -1px 39px -6px rgba(0,0,0,0.79);
+    -moz-box-shadow: -1px -1px 39px -6px rgba(0,0,0,0.79);
+    box-shadow: -1px -1px 39px -6px rgba(0,0,0,0.79);
 }
 body{
-    background-color: bisque;
+    background-color: rgb(223, 218, 211);
 }
 body{
     margin-left: 800px;
     margin-top: 250px;
 }
+button{
+    background:linear-gradient(to top,rgb(207, 71, 112) 0%, rgb(245, 115, 115) 100%);
+    border-radius: 3px;
+    border-style: dashed;
+}
+
+input{
+    width:230px ;
+}
+
+select{
+    width: 230px;
+}
+
+
