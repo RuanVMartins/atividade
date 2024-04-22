@@ -1,10 +1,18 @@
+const usuario = {
+    nome: "ReiDosNaldos",
+    senha: "reinaldo123"
+}
 
-// Get the modal
-var modal = document.getElementById('id01');
+function login(){
+    let nome = document.getElementById ('nome').value ;
+    let senha = document.getElementById ('senha').value ;
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+if ((usuario.nome == nome) && (usuario.senha == senha)){
+    alert('autenticado');
+    window.location.pathname = "/../Visual/pagina2.html"
+}
+
+else{
+    alert('falhou');
+}
 }
